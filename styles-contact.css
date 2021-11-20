@@ -116,11 +116,11 @@ nav{
 	border dashed turquoise
 	border-width 3px 0;
 	text-align: center
-	margin-top 2em
+	margin-top 2em;
 }
 
 nav li{
-	display: inline-block
+	display: inline
 	padding 10px
 }
 
