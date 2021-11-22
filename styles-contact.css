@@ -53,16 +53,14 @@ table {
 
 
 
-/* ---------- Hello, my name is kailey latin and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2019 ------------ */
+/* ---------- Hello, my name is YOUR NAME GOES HERE and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2019 ------------ */
 
 html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_background.jpg)
-  	center center fixed no-repeat;
-	  background-size: cover;
+  background: #404040; 
 	
 	
 }
@@ -84,9 +82,7 @@ html, body {
 }
 
 h1 {
-	font-family: dnp-shuei-nshogomincho-std, sans-serif;
-	font-weight: 700;
-	font-style: normal;
+	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
@@ -102,40 +98,11 @@ h2 {
 }
 
 p {
-	font-family: garamond, serif;
+	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
 }
+    
+    
 
-nav {
-	font-family: garamond, serif;
-	font-size: 1.2em;
-	width: 400px; 
-	margin: 0 auto
-	border dashed turquoise
-	border-width 3px 0;
-	text-align: center
-	margin-top 2em;
-}
-
-nav li{
-	display: inline
-	padding 10px
-}
-
-nav a{
-	display: inline-block;
-	padding: 10px;
-}
-
-a{
-	color:rgb(226, 131, 43)
-	text-decoration none;
-	font-weight: bold;
-}
-
-a:hover{
-	color:rgb(13, 14, 13)
-	background deeppink
-}	
