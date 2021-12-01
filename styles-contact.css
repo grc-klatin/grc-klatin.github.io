@@ -58,34 +58,25 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_background.jpg)
+  background: url(images/background.jpg)
   	center center fixed no-repeat;
 	  background-size: cover;
+	  font-family: bilo, sans-serif;
 }
 
 .center {
-    width: 800px;
+    width: 600px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: whitesmoke (10px); /*this uses opacity of 70% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 60px;
+	margin-top: 80px;
 	text-align: center;
-}
-
-h1 {
-	font-family: dnp-shuei-nshogomincho-std, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
 }
 
 h2 {
@@ -98,18 +89,17 @@ h2 {
 }
 
 p {
-	font-family: garamond, serif;
+	font-family: bilo-light;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: #908a42;
 }
 
 nav {
-	font-family: garamond, serif;
+	font-family: bilo-light;
 	font-size: 1.2em;
-	width: 400px; 
+	width: 80%; 
 	margin: 0 auto
-	border dashed turquoise
 	border-width 3px 0;
 	text-align:center
 	margin-top 2em;
@@ -126,12 +116,11 @@ nav a{
 }
 
 a{
-	color:rgb(226, 131, 43)
+	color: whitesmoke
 	text-decoration none;
 	font-weight: bold;
 }
 
 a:hover{
-	color: black
-	background deeppink
+	color: whitesmoke
 }	
