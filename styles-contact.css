@@ -68,7 +68,8 @@ html, body {
     width: 600px;
 	padding: 2%;
     margin: 100px auto;
- 	background: whitesmoke (10px); /*this uses opacity of 70% for the background color*/
+	border-radius: 10px;
+ 	background: whitesmoke (10px, .90); /*this uses opacity of 70% for the background color*/
 	text-align: center;
 }
 
@@ -90,7 +91,7 @@ h2 {
 
 p {
 	font-family: bilo-light;
-	font-size: 1.2em;
+	font-size: 5em;
     line-height: 1.6;
     color: #908a42;
 }
