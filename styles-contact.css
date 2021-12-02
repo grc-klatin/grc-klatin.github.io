@@ -54,28 +54,29 @@ table {
 /* ---------- Hello, my name is kailey latin and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing Nov 2021 ------------ */
 
 html, body {
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  background: url(images/background.jpg)
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  background:url(images/background.jpg)
   	center center fixed no-repeat;
-	  background-size: cover;
-	  font-family: bilo, sans-serif;
+	  background-size:cover;
+	  font-family: bilo,sans-serif;
 }
 
 .center {
-    width: 600px;
-	padding: 2%;
+    width: 80%;
+	max-width: 800px;
+	padding:2%;
     margin: 100px auto;
-	border-radius: 10px;
- 	background: whitesmoke (10px, .90); /*this uses opacity of 70% for the background color*/
-	text-align: center;
+	border-radius:10px;
+	text-align:center;
+	background-color: whitesmoke;
 }
 
    
 #logo {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 	margin-top: 80px;
 	text-align: center;
 }
@@ -84,43 +85,44 @@ h1 {
 	font-family: bilo-light;
 	font-size: 2em;
     line-height: 1.4;
-    color: #fff;
+    color: #434018 ;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 0px auto;
 }
 
 p {
 	font-family: bilo-light;
-	font-size: 1.5em;
-    line-height: 1.6;
-    color: #908a42;
+	font-size: .8em;
+    line-height:1.6;
+    color: #434018;
 }
 
 nav {
-	font-family: bilo-light;
-	font-size: 1.2em;
-	width: 80%; 
-	margin: 0 auto
-	border-width 3px 0;
-	list-style: disc;
+	font-family:bilo-light;
+	font-size: 1em;
+	width:600px; 
+	margin:0 auto;
 	text-align:center
 	margin-top 2em;
-	color: whitesmoke;
-	display: inline-flex
-	padding 10px
+}
+
+nav li{
+	display:inline;
+	padding:10px
 }
 
 nav a{
-	display: inline-block;
-	padding: 10px;
+	display:inline-block;
+	padding:10px;
 }
 
 a{
-	color: whitesmoke
-	text-decoration none;
-	font-weight: bold;
+	color: #908a42;
+	text-decoration:none;
+	font-weight:bold;
 }
 
 a:hover{
-	color: whitesmoke
+	color:#dad2c4;
+	background:none
 }	
