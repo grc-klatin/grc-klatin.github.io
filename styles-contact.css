@@ -84,6 +84,7 @@ html, body {
 h1 {
 	font-family: bilo-light;
 	font-size: 2em;
+	font-weight: bolder;
     line-height: 1.4;
     color: #434018 ;
     padding: 0px 0px;
