@@ -1,0 +1,104 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; 
+    display: block;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0em 2em 0em 0em;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+li {
+    padding-bottom: 1rem;
+}
+
+nav {
+    background-color:#d08191;
+    padding: 1rem;
+}
+
+nav ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #9b6036;
+}
+
+body {
+    font-family: "montserrat";
+    color:#3a3b3c;
+    background-color: #f1f1f1;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 2rem 0rem 1rem;
+}
+
+h3 {
+    padding: 1.5rem 0rem 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+p {
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+figcaption {
+    font-style: italic;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 1rem auto;
+}
+
+p.description {
+    font-style: italic;
+    padding-top: 1rem;
+}
+
+p.size {
+    color:#d08191;
+}
+
+p.price {
+    color:#9b6036;
+    font-weight: bold;
+}
+
+div.container {
+    margin: 1rem 3rem;
+    width: 40em;  
+}
+
+footer {
+    background-color: #d08191;
+    padding: 1.5rem 1rem;
+    color: #f1f1f1;
+    font-size: .75em;
+}
+
+
+
+
+
+
+
+
+
