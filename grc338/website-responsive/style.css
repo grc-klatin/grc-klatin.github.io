@@ -103,6 +103,10 @@ footer {
         grid-column: 1/3;
    }
 
+   h1{
+    width: 30em;
+   }
+
   ul.shop{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -114,6 +118,25 @@ footer {
     grid-column: 1/2;
   }
 
+  section.aboutpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+  }
+
+  section.aboutpage img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  section.aboutpage div {
+    grid-column: 2/3;
+  }
+
+  h3 {
+    margin-top: 0;
+    padding-top: 0;
+  }
 }
 
 
