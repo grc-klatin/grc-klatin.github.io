@@ -94,11 +94,6 @@ footer {
 
 @media screen and (min-width: 40em){
 
-    div.container {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-    }
-
    header, footer{
         grid-column: 1/3;
    }
